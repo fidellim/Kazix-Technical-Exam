@@ -1,0 +1,9 @@
+{
+    "name": "English",
+    "lang_code": "eng",
+    "flag": "/assets/flags/en.png",
+    "welcome_bonus": "welcome bonus",
+    "receive_bonus": "Receive a bonus up to €200 & 40 free rounds.",
+    "register": "register",
+    "login": "log in"
+}
