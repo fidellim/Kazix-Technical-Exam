@@ -9,7 +9,7 @@ Convert the figma file to a fully responsive site using NextJS
 ### Links
 
 -   Solution URL: [Solution](https://github.com/fidellim/Kazix-Technical-Exam)
--   Live Site URL: [Live Site]()
+-   Live Site URL: [Live Site](https://kazix-technical-exam-fidellim.vercel.app/)
 
 ## Author
 
