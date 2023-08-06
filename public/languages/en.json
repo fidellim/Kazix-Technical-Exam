@@ -15,5 +15,12 @@
         "heading_one": "play",
         "heading_two": "casino",
         "button_text": "explore games"
-    }
+    },
+    "game_card": {
+        "play_btn_text": "Play for fun",
+        "login": "Log in"
+    },
+    "popular_slots": "popular slots",
+    "today_matches": "today matches",
+    "view_all": "view all"
 }

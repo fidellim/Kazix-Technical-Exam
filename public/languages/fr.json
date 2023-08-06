@@ -15,5 +15,12 @@
         "heading_one": "jouer",
         "heading_two": "au casino",
         "button_text": "explorer les jeux"
-    }
+    },
+    "game_card": {
+        "play_btn_text": "Jouer pour le plaisir",
+        "login": "Connexion"
+    },
+    "popular_slots": "machines à sous populaires",
+    "today_matches": "matchs d'aujourd'hui",
+    "view_all": "Voir tout"
 }
