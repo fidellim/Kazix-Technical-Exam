@@ -4,6 +4,8 @@ import Link from 'next/link'
 import { useLanguage } from './LanguageContext'
 import Hero from './components/Hero'
 import PromoItem from './components/PromoItem'
+import GameCard from './components/GameCard'
+import MatchCard from './components/MatchCard'
 
 export default function Home() {
     const { getText } = useLanguage()
@@ -34,6 +36,9 @@ export default function Home() {
                     btn_link="/games"
                 />
             </div>
+
+            <GameCard />
+            <MatchCard />
         </main>
     )
 }
