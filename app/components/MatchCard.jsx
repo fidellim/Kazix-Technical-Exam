@@ -33,8 +33,9 @@ const MatchCard = () => {
         // }
         function fetchMatches() {
             setLoading(true)
+            const apiURL = process.env.NEXT_PUBLIC_API_URL
             return fetch(
-                `http://localhost:3000/api/matches?page=${currentPage}&pageSize=${pageSize}`
+                `${apiURL}/matches?page=${currentPage}&pageSize=${pageSize}`
             )
                 .then((response) => response.json())
                 .then((matches) => {

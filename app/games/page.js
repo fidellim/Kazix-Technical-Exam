@@ -13,7 +13,8 @@ const Games = () => {
     useEffect(() => {
         function fetchGames() {
             setLoading(true)
-            return fetch('http://localhost:3000/api/games')
+            const apiURL = process.env.NEXT_PUBLIC_API_URL
+            return fetch(`${apiURL}/games`)
                 .then((response) => response.json())
                 .then((games) => {
                     setGames(games)

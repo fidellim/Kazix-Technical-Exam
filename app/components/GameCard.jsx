@@ -33,8 +33,9 @@ const GameCard = () => {
         // }
         function fetchGames() {
             setLoading(true)
+            const apiURL = process.env.NEXT_PUBLIC_API_URL
             return fetch(
-                `http://localhost:3000/api/games?page=${currentPage}&pageSize=${pageSize}`
+                `${apiURL}/games?page=${currentPage}&pageSize=${pageSize}`
             )
                 .then((response) => response.json())
                 .then((games) => {

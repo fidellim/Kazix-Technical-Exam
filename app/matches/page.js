@@ -16,7 +16,8 @@ const MatchCard = () => {
     useEffect(() => {
         function fetchMatches() {
             setLoading(true)
-            return fetch('http://localhost:3000/api/matches')
+            const apiURL = process.env.NEXT_PUBLIC_API_URL
+            return fetch(`${apiURL}/matches`)
                 .then((response) => response.json())
                 .then((matches) => {
                     setMatches(matches)
