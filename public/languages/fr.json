@@ -5,5 +5,15 @@
     "welcome_bonus": "bonus de bienvenue",
     "receive_bonus": "Recevez un bonus jusqu'à 200 € et 40 parties gratuites.",
     "register": "enregistrer",
-    "login": "connexion"
+    "login": "connexion",
+    "bet_sports": {
+        "heading_one": "pari",
+        "heading_two": "sportif",
+        "button_text": "explorer les correspondances"
+    },
+    "play_casino": {
+        "heading_one": "jouer",
+        "heading_two": "au casino",
+        "button_text": "explorer les jeux"
+    }
 }

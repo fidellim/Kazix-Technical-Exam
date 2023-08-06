@@ -5,5 +5,15 @@
     "welcome_bonus": "welcome bonus",
     "receive_bonus": "Receive a bonus up to €200 & 40 free rounds.",
     "register": "register",
-    "login": "log in"
+    "login": "log in",
+    "bet_sports": {
+        "heading_one": "bet",
+        "heading_two": "sports",
+        "button_text": "explore matches"
+    },
+    "play_casino": {
+        "heading_one": "play",
+        "heading_two": "casino",
+        "button_text": "explore games"
+    }
 }
