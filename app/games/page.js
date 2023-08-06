@@ -30,7 +30,7 @@ const Games = () => {
 
     return (
         <div className="bg-white">
-            <div className="max-w-[1024px] pt-8 mx-[auto] flex flex-wrap gap-4">
+            <div className="max-w-[1024px] py-8 mx-[auto] flex flex-wrap gap-4">
                 {loading ? (
                     <div className="p-[10px] text-black">
                         <h3>Loading Games...</h3>
@@ -44,9 +44,17 @@ const Games = () => {
                                     key={game.id}
                                 >
                                     <div className="hidden group-hover:block absolute inset-0 bg-gradient-to-t from-black to-slate-800 opacity-60 z-10" />
-                                    <img
+                                    {/* <img
                                         className="w-[181px] h-[250px] left-0 top-0 absolute bg-opacity-25 bg-gradient-to-t from-black to-slate-800"
                                         src={`${game.bg_img_url}`}
+                                    /> */}
+                                    <Image
+                                        src={game.bg_img_url}
+                                        width={181}
+                                        height={250}
+                                        alt={game.title}
+                                        title={game.title}
+                                        className="w-[181px] h-[250px] left-0 top-0 absolute bg-opacity-25 bg-gradient-to-t from-black to-slate-800"
                                     />
 
                                     <div className="group-hover:hidden p-[16px] left-0 right-0 bottom-0 absolute bg-opacity-25 bg-gradient-to-t from-black from-50% to-[98%] to-transparent flex-col justify-start items-start gap-6 flex z-20">

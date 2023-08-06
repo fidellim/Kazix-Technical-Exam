@@ -96,14 +96,14 @@ const page = () => {
                         </li>
                         <li>
                             <strong>Disclaimer of Warranties:</strong> Our
-                            platform and services are provided on an "as-is"
-                            basis without any warranties or guarantees. We do
-                            not warrant that our website will be error-free,
-                            secure, or uninterrupted. We disclaim all
-                            warranties, whether express or implied, including
-                            but not limited to warranties of merchantability,
-                            fitness for a particular purpose, and
-                            non-infringement.
+                            platform and services are provided on an
+                            `&quot;`as-is`&quot;` basis without any warranties
+                            or guarantees. We do not warrant that our website
+                            will be error-free, secure, or uninterrupted. We
+                            disclaim all warranties, whether express or implied,
+                            including but not limited to warranties of
+                            merchantability, fitness for a particular purpose,
+                            and non-infringement.
                         </li>
                         <li>
                             <strong>Limitation of Liability:</strong> In no

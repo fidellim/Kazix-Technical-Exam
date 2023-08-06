@@ -48,7 +48,7 @@ const GameCard = () => {
         }
 
         fetchGames()
-    }, [])
+    }, [currentPage])
 
     return (
         <div className="max-w-[1024px] mx-[auto] mb-[16px]">
@@ -101,9 +101,17 @@ const GameCard = () => {
                                 >
                                     <div className="group h-[250px] mt-[10px] relative rounded-[18px] overflow-hidden">
                                         <div className="hidden group-hover:block absolute inset-0 bg-gradient-to-t from-black to-slate-800 opacity-60 z-10" />
-                                        <img
+                                        {/* <img
                                             className="w-[181px] h-[250px] left-0 top-0 absolute bg-opacity-25 bg-gradient-to-t from-black to-slate-800"
                                             src={`${game.bg_img_url}`}
+                                        /> */}
+                                        <Image
+                                            src={game.bg_img_url}
+                                            width={181}
+                                            height={250}
+                                            alt={game.title}
+                                            title={game.title}
+                                            className="w-[181px] h-[250px] left-0 top-0 absolute bg-opacity-25 bg-gradient-to-t from-black to-slate-800"
                                         />
 
                                         <div className="group-hover:hidden p-[16px] left-0 right-0 bottom-0 absolute bg-opacity-25 bg-gradient-to-t from-black from-50% to-[98%] to-transparent flex-col justify-start items-start gap-6 flex z-20">
