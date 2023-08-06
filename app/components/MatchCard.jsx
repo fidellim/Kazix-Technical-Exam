@@ -6,10 +6,9 @@ import Link from 'next/link'
 import Image from 'next/image'
 import soccer from '@/public/assets/soccer.svg'
 import { Swiper, SwiperSlide, useSwiper } from 'swiper/react'
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules'
+import { Navigation, Grid } from 'swiper/modules'
 import 'swiper/css/navigation'
-import 'swiper/css/pagination'
-import 'swiper/css/scrollbar'
+import 'swiper/css/grid'
 import 'swiper/css'
 
 import SwiperButtons from './SwiperButtons'
@@ -54,20 +53,22 @@ const MatchCard = () => {
     return (
         <div className="max-w-[1024px] mx-[auto] mb-[16px]">
             <Swiper
-                spaceBetween={2}
-                slidesPerView="auto"
-                loop={true}
+                // spaceBetween={10}
+                // slidesPerView="auto"
+                // slidesPerGroup={5}
+                slidesPerView={1}
                 grid={{
                     rows: 5,
                 }}
-                modules={[Navigation, Pagination, Scrollbar, A11y]}
+                spaceBetween={10}
+                modules={[Navigation, Grid]}
                 // onSlideChange={() => console.log('slide change')}
                 // onSwiper={(swiper) => console.log(swiper)}
-                className="mt-[10px]"
+                className="match-card-swiper mt-[10px]"
             >
                 <div
                     slot="container-start"
-                    className=" px-4 py-3 bg-black rounded-tl-[18px] rounded-tr-[18px] justify-between items-center gap-3 flex flex-wrap"
+                    className="max-w-[1024px] mb-[10px] px-4 py-3 bg-black rounded-tl-[18px] rounded-tr-[18px] justify-between items-center gap-3 flex flex-wrap"
                 >
                     <div className="justify-start items-center gap-2 flex">
                         <div className="w-3 h-3 relative">
@@ -100,7 +101,8 @@ const MatchCard = () => {
                         {matches &&
                             matches.map((match, index) => (
                                 <SwiperSlide key={`${index} ${match.league}`}>
-                                    <div className="max-w-[1024px] mt-[10px] p-6 bg-neutral-100 rounded-3xl justify-between items-center gap-4 flex flex-col lg:flex-row">
+                                    {/* max-w-[1024px] */}
+                                    <div className="p-6 bg-neutral-100 rounded-3xl justify-between items-center gap-4 flex flex-col lg:flex-row">
                                         <div className="flex-col lg:flex-row justify-center items-center gap-2 inline-flex flex-wrap">
                                             <div className="justify-center lg:justify-start items-center lg:items-start gap-3 inline-flex">
                                                 <div className="justify-center lg:justify-start items-center lg:items-start gap-2 flex">
