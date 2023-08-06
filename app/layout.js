@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
     return (
         <LanguageProvider>
             <html lang="en" className="bg-white">
-                <body className={`${fjalla.className}`}>
+                <body className={`${fjalla.className} bg-white`}>
                     <Header />
                     {children}
                 </body>
