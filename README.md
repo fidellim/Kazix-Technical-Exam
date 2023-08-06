@@ -30,5 +30,6 @@ Convert the figma file to a fully responsive site using NextJS
 -   https://help.figma.com/hc/en-us/articles/360039956994-Manage-missing-fonts#fix-missing
 -   https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13
 -   https://swiperjs.com/demos
+-   https://swiperjs.com/demos#grid
 -   https://tailwindcss.com/
 -   https://medium.com/codex/next-js-13-google-fonts-5e0e50e031c6
