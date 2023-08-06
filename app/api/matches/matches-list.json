@@ -1,0 +1,95 @@
+{
+    "matches": [
+      {
+        "league": "Premier League",
+        "teams": ["Manchester United", "Manchester City"],
+        "odds": {
+          "home_team": 2.50,
+          "away_team": 1.75,
+          "draw": 3.20
+        }
+      },
+      {
+        "league": "La Liga",
+        "teams": ["Real Madrid", "Barcelona"],
+        "odds": {
+          "home_team": 2.20,
+          "away_team": 2.00,
+          "draw": 2.90
+        }
+      },
+      {
+        "league": "Serie A",
+        "teams": ["Juventus", "AC Milan"],
+        "odds": {
+          "home_team": 1.90,
+          "away_team": 2.30,
+          "draw": 3.10
+        }
+      },
+      {
+        "league": "Bundesliga",
+        "teams": ["Bayern Munich", "Borussia Dortmund"],
+        "odds": {
+          "home_team": 1.70,
+          "away_team": 2.50,
+          "draw": 3.50
+        }
+      },
+      {
+        "league": "Ligue 1",
+        "teams": ["Paris Saint-Germain", "Olympique Marseille"],
+        "odds": {
+          "home_team": 1.80,
+          "away_team": 2.10,
+          "draw": 3.00
+        }
+      },
+      {
+        "league": "Eredivisie",
+        "teams": ["Ajax", "PSV Eindhoven"],
+        "odds": {
+          "home_team": 1.60,
+          "away_team": 2.70,
+          "draw": 3.80
+        }
+      },
+      {
+        "league": "Primeira Liga",
+        "teams": ["Porto", "Benfica"],
+        "odds": {
+          "home_team": 2.10,
+          "away_team": 1.90,
+          "draw": 3.30
+        }
+      },
+      {
+        "league": "Scottish Premiership",
+        "teams": ["Celtic", "Rangers"],
+        "odds": {
+          "home_team": 1.95,
+          "away_team": 2.20,
+          "draw": 3.20
+        }
+      },
+      {
+        "league": "MLS",
+        "teams": ["LA Galaxy", "New York City FC"],
+        "odds": {
+          "home_team": 2.40,
+          "away_team": 1.80,
+          "draw": 3.40
+        }
+      },
+      {
+        "league": "J-League",
+        "teams": ["Kawasaki Frontale", "Urawa Red Diamonds"],
+        "odds": {
+          "home_team": 1.70,
+          "away_team": 2.50,
+          "draw": 3.70
+        }
+      }
+    ]
+  }
+  
