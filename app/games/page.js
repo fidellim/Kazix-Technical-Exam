@@ -31,7 +31,7 @@ const Games = () => {
 
     return (
         <div className="bg-white">
-            <div className="max-w-[1024px] py-8 mx-[auto] flex flex-wrap gap-4">
+            <div className="max-w-[1024px] py-8 px-8 mx-[auto] justify-center items-center flex flex-wrap gap-4">
                 {loading ? (
                     <div className="p-[10px] text-black">
                         <h3>Loading Games...</h3>
