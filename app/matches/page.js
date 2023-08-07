@@ -78,7 +78,7 @@ const MatchCard = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="grow shrink basis-0 h-6 justify-between items-center gap-3 flex flex-wrap">
+                                <div className="grow shrink basis-0 justify-center lg:justify-between items-center gap-3 inline-flex flex-wrap">
                                     <div className="justify-center lg:justify-start items-center lg:items-start gap-4 flex w-[125px] max-w-[125px]">
                                         <div className="justify-start items-center gap-2 flex">
                                             <div className="text-black text-sm font-normal leading-tight">
