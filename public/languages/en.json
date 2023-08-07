@@ -22,5 +22,17 @@
     },
     "popular_slots": "popular slots",
     "today_matches": "today matches",
-    "view_all": "view all"
+    "view_all": "view all",
+    "bet_slip": {
+        "title": "bet slip",
+        "input_placeholder": "Enter stake",
+        "btn_text": "bet now",
+        "remove_text": "remove all",
+        "possible_win": "Possible win",
+        "single": "single",
+        "match_result": "match result",
+        "place_bet_text": "To place your bet, please",
+        "sign_in": "Sign in",
+        "register": "Register"
+    }
 }

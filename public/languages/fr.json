@@ -22,5 +22,17 @@
     },
     "popular_slots": "machines à sous populaires",
     "today_matches": "matchs d'aujourd'hui",
-    "view_all": "Voir tout"
+    "view_all": "Voir tout",
+    "bet_slip": {
+        "title": "Coupon de pari",
+        "input_placeholder": "Saisir la mise",
+        "btn_text": "Parier maintenant",
+        "remove_text": "Tout supprimer",
+        "possible_win": "Gain possible",
+        "single": "Simple",
+        "match_result": "Résultat du match",
+        "place_bet_text": "Pour placer votre pari, veuillez",
+        "sign_in": "Se connecter",
+        "register": "S'inscrire"
+    }
 }
