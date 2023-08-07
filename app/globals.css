@@ -39,6 +39,19 @@
     margin-right: auto;
 }
 
+/* Initial animation to hide the container */
+.bet-slip-container {
+    transform: translateY(90%);
+    opacity: 1;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Show the container when toggled */
+.bet-slip-container.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
 @media screen and (min-width: 350px) {
     .match-card-swiper > .swiper-wrapper {
         max-height: 1500px;
