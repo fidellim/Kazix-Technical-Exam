@@ -33,3 +33,7 @@ Convert the figma file to a fully responsive site using NextJS
 -   https://swiperjs.com/demos#grid
 -   https://tailwindcss.com/
 -   https://medium.com/codex/next-js-13-google-fonts-5e0e50e031c6
+
+#### Date Submitted
+
+-   Submitted at Aug. 7, 2023 (Monday) at 4:20 PM
