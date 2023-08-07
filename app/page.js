@@ -6,6 +6,7 @@ import Hero from './components/Hero'
 import PromoItem from './components/PromoItem'
 import GameCard from './components/GameCard'
 import MatchCard from './components/MatchCard'
+import BetSlipCard from './components/BetSlipCard'
 
 export default function Home() {
     const { getText } = useLanguage()
@@ -39,6 +40,8 @@ export default function Home() {
 
             <GameCard />
             <MatchCard />
+
+            <BetSlipCard />
         </main>
     )
 }
